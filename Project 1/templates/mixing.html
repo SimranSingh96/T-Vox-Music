@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mixing</title>
+    <link rel="stylesheet" href="../css/mixing.css" />
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <!-- <a href="#home" id="navbar__logo">COLOR</a> -->
+            <img src="../images/logo.png" alt="" style="margin-top: 10px" />
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__links" id="services-page">Services</a>
+                </li>
+
+                <li class="navbar__item">
+                    <a href="contact.html" class="navbar__links" id="contact-page">Contact</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="signup.html" class="button" id="signup">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Section 1 -->
+        <div class="item">
+        <img src="../images/mixing3.jpeg" alt="" style="
+        width: 100vw;" />
+      </div>
+
+        <!-- section 2 -->
+        <div class="item">
+            <p class="plan-line-heading">Take your music to new levels of awesome</h2>
+
+            <div class="plan-container">
+                <div class="tab1">
+                    <div class="plan-tab">
+                        <div class="plan-heading common-border-padding text-center">
+                            <h2>Vocal mix and Master</h2>
+                        </div>
+                        <div class="plan-cost common-border-padding text-center">
+                            <h2>From $200/song</h2>
+                        </div>
+                        <div class="gray-black common-border-padding text-center">
+                            <p>For vocals on pre-mixed instrumental or beat</p>
+                        </div>
+                        <div class="black-white common-border-padding text-center">
+                            <p>Options to edit tracks and tune vocals
+                            </p>
+                        </div>
+                        <div class="gray-black common-border-padding text-center">
+                            <p>5 to 7 day delivery, option for 2 day rush</p>
+                        </div>
+                        <div class="black-white common-border-padding text-center">
+                            <p>Includes 2 sets of mix revisions
+
+                            </p>
+                        </div>
+                        <div class="gray-black common-border-padding text-center">
+                            <p>100% confidential and copyright free
+                            </p>
+                        </div>
+                        <div class="black-white padding-15 btn-container text-center">
+                            <button type="button" class="orange-btn" onclick="openpopup()">
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab1">
+                    <div class="plan-tab">
+                        <div class="plan-heading common-border-padding text-center">
+                            <h2>Mixing & Mastering</h2>
+                        </div>
+                        <div class="plan-cost common-border-padding text-center">
+                            <h2>From $350/song</h2>
+                        </div>
+                        <div class="gray-black common-border-padding text-center">
+                            <p>For tracked-out instrumentals and vocals</p>
+                        </div>
+                        <div class="black-white common-border-padding text-center">
+                            <p>Various track pricing tiers to suit your project
+                            </p>
+                        </div>
+                        <div class="gray-black common-border-padding text-center">
+                            <p>7 to 10 day delivery, option for 2 day rush</p>
+                        </div>
+                        <div class="black-white common-border-padding text-center">
+                            <p>Includes 2 sets of mix revisions
+
+                            </p>
+                        </div>
+                        <div class="gray-black common-border-padding text-center">
+                            <p>100% confidential and copyright free
+                            </p>
+                        </div>
+                        <div class="black-white padding-15 btn-container text-center">
+                            <button class="orange-btn" onclick="openpopup()">
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab1">
+                    <div class="plan-tab">
+                        <div class="plan-heading common-border-padding text-center">
+                            <h2>Mastering Only</h2>
+                        </div>
+                        <div class="plan-cost common-border-padding text-center">
+                            <h2>From $85/song</h2>
+                        </div>
+                        <div class="gray-black common-border-padding text-center">
+                            <p>For single WAV or stem master</p>
+                        </div>
+                        <div class="black-white common-border-padding text-center">
+                            <p>Corrective equalization and phase
+                            </p>
+                        </div>
+                        <div class="gray-black common-border-padding text-center">
+                            <p>Stereo/ mono compatibility check</p>
+                        </div>
+                        <div class="black-white common-border-padding text-center">
+                            <p>Limiting and loudness control
+
+                            </p>
+                        </div>
+                        <div class="gray-black common-border-padding text-center">
+                            <p>Mastered for iTunes, Spotify, other platforms
+                            </p>
+                        </div>
+                        <div class="black-white padding-15 btn-container text-center">
+                            <button class="orange-btn" onclick="openpopup()">
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="popup_button" id="popup">
+        <h3>Enter Your Details</h3>
+        <form method="get" id="course_form" name="signup">
+          <label for="name">Username:&nbsp;</label><br>
+          <input type="text" name="name" id="name" required><br>
+          <label for="password">Password: &nbsp;</label><br>
+          <input type="Password" name="password" id="password" required><br>
+          <label for="email">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><br>
+          <input type="text" name="email" id="email" required><br><br>
+          <!-- <label for="phone">Mobile Number:</label><br>
+          <input type="tel" name="phone" id="phone" required><br><br> -->
+          <button type="button" onclick="formvalidation()" >Submit</button>
+        </form><br>
+       
+      </div><br><br>
+
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo" style="font-size: large">TVOX</a>
+          </div>
+          <p class="website__rights">© TVOX 2022. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="../js/index.js"></script>
+    <script src="../js/mixing.js"></script>
+  </body>
+</html>
+
+</html>

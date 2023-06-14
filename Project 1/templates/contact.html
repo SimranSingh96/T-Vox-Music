@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body onload="document.registration.First_name.focus();">
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <img src="../images/logo.png" alt="" style="margin-top: 10px" />
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Services</a
+            >
+          </li>
+
+          <li class="navbar__item">
+            <a href="contact.html" class="navbar__links" id="contact-page"
+              >Contact</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="signup.html" class="button" id="signup">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of nav bar -->
+
+    <!--contact us  -->
+    <div class="contactimg-wrapper">
+      <img src="../images/contactus.jpg" alt="" class="contactimg" />
+    </div>
+    <!-- <div class="para" style="padding-left:130px; padding-top:50px;font-size: 20px;"> -->
+      <div class="para">
+      <h2 style="color:rgb(86, 44, 225); margin-top: 40px;">Have a question? Let’s talk!</h2>
+    </div>
+    <section>
+      <div class="container">
+        <div class="contactinfo">
+          <div>
+            <h2>Contact Info</h2>
+            <ul class="info">
+              <li>
+                <span><img src=../images/location.png></span>
+                <span>25 mabelle avenue,etobicoke,M9A4Y1</span>
+              </li>
+              <li>
+                <span><img src=../images/Gmail.png></span>
+                <span>Tvox_music@gmail.com</span>
+              </li>
+              <li>
+                <span><img src=../images/contact.png></span>
+                <button><a href="https://wa.me/14372608799"><span>+14372631290</span></a></button>
+              </li>
+            </ul>
+          </div>
+          <ul class="sci">
+            <li><a href="https://www.facebook.com/tvoxmusic/"><image src="../images/fb.png"></image></a> </li>
+            <li><a href="https://www.instagram.com/tvoxmusic/?hl=en"><image src="../images/Insta.png"></image></a></li>
+            <li><a href="#"><image src="../images/link.png"></image></a></li>
+            <li><a href="#"><image src="../images/twitter.png"></image></a></li>
+            <li><a href="https://www.youtube.com/channel/UC_Bxwt8zQQ-7_fcvE8940KA"><image src="../images/youtube.png"></image></a></li>
+          </ul>
+        </div>
+        <!-- form -->
+        <div class="contactform">
+          <div class="para_m">
+            <p>Please provide us some information about your project
+              by completing this form and we’ll get back to you as soon as possible.</p>
+             <h2>Send a Message</h2>
+          </div>
+       
+          <form name="registration" onSubmit="return formvalidation();return True">
+          <div class="formbox">
+            <div class="inputBox w50">
+              <input type="text" name="First_name"  />
+              <span>First name</span>
+            </div>
+
+            <div class="inputBox w50">
+              <input type="text" name="Last_name"  />
+              <span>Last name</span>
+            </div>
+
+            <div class="inputBox w50">
+              <input type="text" name="email"  />
+              <span>Email address</span>
+            </div>
+
+            <div class="inputBox w50">
+              <input type="text" name="mobile_number"  />
+              <span>Mobile number</span>
+            </div>
+
+            <div class="inputBox w100">
+              <textarea name="message" ></textarea>
+              <span>Write your message here...</span>
+            </div>
+
+            <div class="inputBox w100">
+              <input type="Submit" value="send enquiry" />
+              <!-- <span>Send Enquiry</span> -->
+            </div>
+          </div>
+        </form>
+        </div>
+      </div>
+    </section>
+    <!-- location -->
+    <div id="locate" style="padding-left:80px;">
+      <h2>Our Location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.9968319505324!2d-79.67671438498319!3d43.627424879122216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b409fb8a947f9%3A0x418640e93fdafd13!2sLambton%20College!5e0!3m2!1sen!2sca!4v1658799525694!5m2!1sen!2sca" 
+      width="60%" height="300vw" style="border:0;"  allowfullscreen="" 
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo" style="font-size: large">TVOX</a>
+          </div>
+          <p class="website__rights">© TVOX 2022. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- end of footer -->
+    <!-- <script src="../js/index.js"></script> -->
+    <script src="../js/contact.js"></script>
+  </body>
+</html>
